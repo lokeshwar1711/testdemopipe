@@ -12,5 +12,6 @@ phases:
         --s3-bucket javalam1
         --output-template-file packaged-template.yml
 artifacts:
+  type: zip
   files:
     - packaged-template.yml
